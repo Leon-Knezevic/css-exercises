@@ -1,1 +1,11 @@
 /* Add CSS Styling */
+.avatar.proportioned {
+    width: 300px;
+    height: auto; /* Automatically calculate height based on width */
+    max-height: 100%; /* Ensure height doesn't exceed 100% */
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px; /* Fixed aspect ratio (twice as big as width) */
+}

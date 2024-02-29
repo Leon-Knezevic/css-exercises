@@ -1,0 +1,8 @@
+
+.container p.text {
+    /* Your styling for the paragraphs inside .container elements */
+    color: red;
+    font-size: 20px;
+    background-color:yellow;
+    text-align: center;
+}
